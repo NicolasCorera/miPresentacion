@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #bdd7ff;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #5499ff;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+header a:hover {
+  color: blue;
+}
+
+section#aboutMe {
+  height: auto;
+  background-color: #9cc3ff;
+  padding: 1.5rem;
+}
+
+section#aboutMe h2 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+section#hobbies {
+  height: auto;
+  padding: 1.5rem;
+}
+
+section#hobbies h2 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+section#hobbies li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  background-color: #5499ff;
+  padding: 0.8rem;
+  border-radius: 15px 3px 15px 3px;
+  font-weight: bold;
+}
+
+section#technologies {
+  height: auto;
+  padding: 1.5rem;
+  background-color: #9cc3ff;
+}
+
+section#technologies h2 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+section#technologies li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  background-color: #5499ff;
+  padding: 0.8rem;
+  border-radius: 15px 3px 15px 3px;
+  font-weight: bold;
+}
+
+section#contact {
+  height: auto;
+  padding: 1.5rem;
+}
+
+section#contact h2 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+section#contact p {
+  font-weight: 500;
+  color: black;
+}
+
+section#contact span a {
+  color: rgb(58, 58, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+section#contact span a:hover {
+  color: rgb(0, 0, 155);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section#contact button {
+  margin-top: 0.6rem;
+  border: none;
+  background-color: rgb(43, 67, 173);
+  padding: 1rem;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+section#contact button:hover {
+  margin-top: 0.6rem;
+  border: none;
+  background-color: rgb(52, 81, 212);
+  padding: 1rem;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #5499ff;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+footer a:hover {
+  color: blue;
+}
